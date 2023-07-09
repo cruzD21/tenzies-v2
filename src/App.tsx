@@ -50,10 +50,12 @@ function App() {
 
   return (
     <main>
-      <h1 className="title">Testing</h1>
+      <h1 className="title">CUBILETE</h1>
       <h3 className="instructions">testiong</h3>
       <div className="dice-container">{diceElements}</div>
-      <button onClick={rollDice}>button</button>
+      <button className="roll-button" onClick={rollDice}>
+        button
+      </button>
     </main>
   );
 }
